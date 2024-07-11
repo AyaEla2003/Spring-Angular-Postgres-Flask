@@ -1,0 +1,11 @@
+<button (click)="fetchData()">Fetch Classifications</button>
+
+<ul>
+  <li *ngFor="let count of counts">
+    File Name : {{ count.filename }}
+    <br>
+    Words counts :  {{ count.wordCount }} 
+    <br>
+    Lettre counts :  {{ count.letterCount }}
+  </li>
+</ul>
